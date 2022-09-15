@@ -7,9 +7,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-flexbox{
+.clearfix::after{
     display: table;
-    content: "";
+    counter-reset: none;
     clear: both;
 }
 
@@ -34,3 +34,39 @@ header p{
 }
 
 /* INIZIO MAIN */
+
+.clearfix{
+}
+
+.id-card-layout{
+   width: calc(100% / 3); 
+   float: left;
+   padding: 15px;
+}
+
+.info-profile{
+    width: 90%;
+    line-height: 42px;
+    box-shadow: 10px 5px 5px black;
+    background-color: black;
+    color: white;
+}
+
+.info-profile img{
+    height: 125px;
+    float: left;
+    padding-right: 15px;
+}
+
+.info-profile a{
+    color: rgb(82,188,218);
+}
+
+
+
+
+
+
+
+
+
