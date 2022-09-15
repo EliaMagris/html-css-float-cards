@@ -1,0 +1,36 @@
+/* RESET TAGS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+flexbox{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* INIZIO HEADER */
+
+.layout{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header h1{
+    color: rgb(229,49,112);
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+/* INIZIO MAIN */
