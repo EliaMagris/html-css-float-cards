@@ -9,7 +9,7 @@
 
 .clearfix::after{
     display: table;
-    counter-reset: none;
+    content: "";
     clear: both;
 }
 
@@ -35,9 +35,6 @@ header p{
 
 /* INIZIO MAIN */
 
-.clearfix{
-}
-
 .id-card-layout{
    width: calc(100% / 3); 
    float: left;
@@ -45,8 +42,6 @@ header p{
 }
 
 .info-profile{
-    width: 90%;
-    line-height: 42px;
     box-shadow: 10px 5px 5px black;
     background-color: black;
     color: white;
@@ -62,8 +57,10 @@ header p{
     color: rgb(82,188,218);
 }
 
-
-
+.email-info{
+    line-height: 41px;
+    float: left;
+}
 
 
 
